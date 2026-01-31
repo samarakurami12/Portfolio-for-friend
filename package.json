@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axe-core": "^4.11.1",
+    "jsdom": "^27.4.0"
+  }
+}

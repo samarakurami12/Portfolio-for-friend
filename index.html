@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta name="theme-color" content="#00ffee">
+     <link rel="shortcut icon" href="image/suresh-profile.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suresh Hantal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>SURESH HANTAL</h1>
+        <p>Professional Portfolio &amp; Resume</p>
+    </header>
+
+    <main class="container">
+        <div class="profile-section">
+            <div class="profile-content">
+                <div class="profile-image">
+                    <img src="image/Gemini_Generated_Image_m920u1m920u1m920.png" alt="Profile Photo">
+                </div>
+                <div class="profile-text">
+                    <h2>Welcome</h2>
+                    <p>
+                        Experienced professional with a proven track record of delivering innovative solutions and driving business growth. Passionate about leveraging technology and expertise to solve complex problems and create lasting impact.
+                    </p>
+                    <div class="skills">
+                        <h3>Core Competencies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Strategic Planning</span>
+                            <span class="skill-tag">Team Building</span>
+                            <span class="skill-tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sections">
+            <div class="section">
+                <h2>Professional Experience</h2>
+                <div class="project-item">
+                    <h3>Senior Professional Role</h3>
+                    <p><strong>Company Name</strong> | 2021 - Present</p>
+                    <p>Led cross-functional teams to deliver enterprise-level solutions, improved operational efficiency by 35%, and mentored junior team members.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Professional Role</h3>
+                    <p><strong>Previous Company</strong> | 2018 - 2021</p>
+                    <p>Managed key projects, optimized processes, and contributed to significant business growth and client satisfaction improvements.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Education &amp; Certifications</h2>
+                <div class="project-item">
+                    <h3>Professional Certification</h3>
+                    <p>• Online Internship Certifications in Artificial Intelligence <br>
+                        • Online Internship Certifications in Robotics</p>
+                </div>
+                <div class="project-item">
+                    <h3>Degree/Qualification</h3>
+                    <p>Bachelor of Technology (B.Tech)
+                    Branch: Computer Science and Engineering
+                    College: Majhighariani Institute of Technology and Science (MITS), Rayagada, Odisha
+                    Status: 3rd Year (Pursuing)</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🎯 Skills &amp; Expertise</h2>
+                
+                <div class="skills-category">
+                    <h3>💻 Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">HTML</div>
+                        <div class="skill-item">CSS</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">MongoDB</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>🤝 Soft Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Communication</div>
+                        <div class="skill-item">Teamwork</div>
+                        <div class="skill-item">Problem-Solving</div>
+                        <div class="skill-item">Leadership</div>
+                        <div class="skill-item">Time Management</div>
+                        <div class="skill-item">Adaptability</div>
+                        <div class="skill-item">Critical Thinking</div>
+                        <div class="skill-item">Creativity</div>
+                        <div class="skill-item">Collaboration</div>
+                        <div class="skill-item">Presentation</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>🛠️ Tools &amp; Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">GitHub</div>
+                        <div class="skill-item">VS Code</div>
+                        <div class="skill-item">Linux</div>
+                        <div class="skill-item">Docker</div>
+                        <div class="skill-item">Postman</div>
+                        <div class="skill-item">JIRA</div>
+                        <div class="skill-item">Figma</div>
+                        <div class="skill-item">Webpack</div>
+                        <div class="skill-item">MySQL</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>📸 My Gallery</h2>
+                <p>A collection of my cherished memories and moments that showcase my experiences and adventures.</p>
+                
+                <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+                    <div class="upload-text">📸 Click to Upload Your Photos</div>
+                    <p style="color: #999; margin-top: 10px; font-size: 0.9em;">or drag and drop images here</p>
+                    <input type="file" id="fileInput" aria-label="Upload images" multiple accept="image/*" onchange="handleFileUpload(event)">
+                </div>
+
+                <div class="gallery" id="gallery">
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="image/1710175129782~2.jpg" alt="Memory 1">
+                        <!-- <div class="gallery-overlay">🌟 Memory 1</div> -->
+                    </div>
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="image/1747756889077.jpg" alt="Memory 2">
+                        <!-- <div class="gallery-overlay">💭 Memory 2</div> -->
+                    </div>
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="image/1768996025094.jpg" alt="Memory 3">
+                        <!-- <div class="gallery-overlay">✨ Memory 3</div> -->
+                    </div>
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="image/1768996474105.jpg" alt="Memory 4">
+                        <!-- <div class="gallery-overlay">❤️ Memory 4</div> -->
+                    </div>
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="image/IMG-20251113-WA0020.jpg" alt="Memory 5">
+                        <!-- <div class="gallery-overlay">🎉 Memory 5</div> -->
+                    </div>
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="image/IMG20241123124315.jpg" alt="Memory 6">
+                        <!-- <div class="gallery-overlay">🌈 Memory 6</div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Get In Touch</h2>
+                <p>I'm always interested in connecting with professionals and exploring new opportunities. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:sureshhantalb@gmail.com" class="contact-link">📧 Email</a>
+                    <a href="https://www.linkedin.com/in/suresh-hantal-209205360/?originalSubdomain=in" class="contact-link">💼 LinkedIn</a>
+                    
+                    <a href="https://github.com" class="contact-link">💻 GitHub</a>
+                    <a href="tel:+916370203429" class="contact-link">📞 Call</a>
+                    <a href="https://samarakurami.netlify.app/" class="contact-link"> <img src="image/website-icon-isolated-on-white-background-free-vector.jpg" alt="">Visit Friends Website</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal for image viewing -->
+    <div id="imageModal" class="modal" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="nav-arrows">
+            <span class="arrow" onclick="changeImage(-1)">&#10094;</span>
+            <span class="arrow" onclick="changeImage(1)">&#10095;</span>
+        </div>
+        <img class="modal-content" id="modalImage" alt="">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Suresh Hantal. All rights reserved. | Professional Portfolio. | Designed by Samara Kurami</p>
+    </footer>
+
+    <script>
+        let currentImageIndex = 0;
+        const gallery = document.getElementById('gallery');
+
+        function openModal(element) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            currentImageIndex = Array.from(galleryItems).indexOf(element);
+            modalImage.src = element.querySelector('img').src;
+            modalImage.alt = element.querySelector('img').alt;
+            modalCaption.textContent = element.querySelector('img').alt;
+            modal.style.display = 'block';
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = 'auto';
+        }
+
+        function changeImage(direction) {
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            currentImageIndex += direction;
+            
+            if (currentImageIndex >= galleryItems.length) {
+                currentImageIndex = 0;
+            } else if (currentImageIndex < 0) {
+                currentImageIndex = galleryItems.length - 1;
+            }
+            
+            const element = galleryItems[currentImageIndex];
+            const modalImage = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+            
+            modalImage.src = element.querySelector('img').src;
+            modalImage.alt = element.querySelector('img').alt;
+            modalCaption.textContent = element.querySelector('img').alt;
+        }
+
+        function handleFileUpload(event) {
+            const files = Array.from(event.target.files);
+            
+            files.forEach((file, index) => {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const galleryItem = document.createElement('div');
+                    galleryItem.className = 'gallery-item';
+                    galleryItem.onclick = function() { openModal(this); };
+                    
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.alt = file.name;
+                    
+                    const overlay = document.createElement('div');
+                    overlay.className = 'gallery-overlay';
+                    overlay.textContent = '📸 ' + file.name.split('.')[0];
+                    
+                    galleryItem.appendChild(img);
+                    galleryItem.appendChild(overlay);
+                    gallery.appendChild(galleryItem);
+                };
+                reader.readAsDataURL(file);
+            });
+
+            // Reset file input
+            event.target.value = '';
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // Keyboard navigation in modal
+        document.addEventListener('keydown', function(event) {
+            const modal = document.getElementById('imageModal');
+            if (modal.style.display === 'block') {
+                if (event.key === 'ArrowLeft') {
+                    changeImage(-1);
+                } else if (event.key === 'ArrowRight') {
+                    changeImage(1);
+                } else if (event.key === 'Escape') {
+                    closeModal();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
